@@ -98,7 +98,7 @@ Buildings
 	
 	*pen|pens
 		name:Yellow Slime|Yellow Slimes
-		desc:The unpredictably special lad.<//><b>Effect:</b><.>Produces 12 rabbits per second.
+		desc:The unpredictably special lad.<//><b>Effect:</b><.>Drops 12 coins per second.
 		icon:https://i.imgur.com/6VX30bD.png
 		cost:4000 bunnies
 		on tick:yield 12 bunnies
