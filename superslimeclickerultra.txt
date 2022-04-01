@@ -18,7 +18,7 @@ Layout
 		
 Buttons
 	*bunnyButton
-		name:Slash a slime
+		name:Slash a Slime
 		desc:Slash this slime to get coins!
 		on click:anim icon wobble
 		on click:yield 1 bunny
@@ -73,9 +73,9 @@ Buildings
 		on click:anim glow
 		
 	*cage|cages
-		name:Rabbit cage|Rabbit cages
-		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
-		icon:icons[3,0]
+		name:Green Slime|Green Slimes
+		desc:The most basic kind of slime.<//><b>Effect:</b><.>Drops 1 coin every 10 seconds.
+		icon:https://i.imgur.com/cQqFcZz.png
 		cost:15 bunnies
 		on tick:yield 0.1 bunny
 		unlocked
