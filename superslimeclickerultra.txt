@@ -51,7 +51,7 @@ Shinies
 		movement:onRight moveLeft fade bounce:0.05
 		frequency:60
 		frequency variation:30
-		icon:stuff/luckyBunny.png
+		icon:https://i.imgur.com/R3VfhyM.png
 		class:bigButton
 		on click:
 			$boost=1
@@ -59,11 +59,11 @@ Shinies
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
-				toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
+				toast The Golden Slime drops<//><b>[$amount] Rare Coins!</b>.
 				yield $amount bunnies
 			else
 				$amount=1*$boost
-				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
+				toast The Golden Slime drops<//><b>[$amount] Rare Coins![s?$amount]</b>!
 				yield $amount goldenCarrot
 			end
 		end
