@@ -82,16 +82,16 @@ Buildings
 	
 	*hutch|hutches
 		name:Blue Slime|Blue Slimes
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
-		icon:icons[3,1]
+		desc:They're more scared of you than you are of them!<//><b>Effect:</b><.>Drops 1 coin every 2 seconds.
+		icon:https://i.imgur.com/Wrior8w.png
 		cost:100 bunnies
 		on tick:yield 0.5 bunnies
 		req:100 bunnies:earned
 	
 	*coop|coops
-		name:Rabbit coop|Rabbit coops
-		desc:A much nicer rabbit home where full bunny families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
-		icon:icons[3,2]
+		name:Red Slime|Red Slimes
+		desc:They want to fight you!<//><b>Effect:</b><.>Drops 5 coins per second.
+		icon:https://i.imgur.com/hcmcjd3.png
 		cost:600 bunnies
 		on tick:yield 5 bunnies
 		req:600 bunnies:earned
