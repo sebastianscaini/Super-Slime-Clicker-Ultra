@@ -34,14 +34,14 @@ Resources
 	*bunny|bunnies
 		name:Coin|Coins
 		desc:Coins can be used to buy things!
-		icon:https://i.imgur.com/h3nt743.png
+		icon:https://i.imgur.com/xmO6j2f.png
 		class:noBackground
 		show earned
 		
 	*goldenCarrot|goldenCarrots
 		name:Rare Coin|Rare Coins
 		desc:Rare Coins are incredibly rare and valuable!
-		icon:https://i.imgur.com/qWvn2J7.png
+		icon:https://i.imgur.com/1khX6dc.png
 		class:noBackground
 		hidden when 0
 		
@@ -74,14 +74,14 @@ Buildings
 		
 	*cage|cages
 		name:Green Slime|Green Slimes
-		desc:The most basic kind of slime.<//><b>Effect:</b><.>Drops 1 coin every 10 seconds.
-		icon:https://i.imgur.com/cQqFcZz.png
+		desc:They are literally just vibing.<//><b>Effect:</b><.>Drops 1 coin every 10 seconds.
+		icon:https://i.imgur.com/v4EV23h.png
 		cost:15 bunnies
 		on tick:yield 0.1 bunny
 		unlocked
 	
 	*hutch|hutches
-		name:Rabbit hutch|Rabbit hutches
+		name:Blue Slime|Blue Slimes
 		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
 		icon:icons[3,1]
 		cost:100 bunnies
@@ -97,9 +97,9 @@ Buildings
 		req:600 bunnies:earned
 	
 	*pen|pens
-		name:Rabbit pen|Rabbit pens
-		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 rabbits per second.
-		icon:icons[3,3]
+		name:Yellow Slime|Yellow Slimes
+		desc:The unpredictably special lad.<//><b>Effect:</b><.>Produces 12 rabbits per second.
+		icon:https://i.imgur.com/6VX30bD.png
 		cost:4000 bunnies
 		on tick:yield 12 bunnies
 		req:4000 bunnies:earned
