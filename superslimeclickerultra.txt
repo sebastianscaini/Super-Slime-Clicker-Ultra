@@ -63,7 +63,7 @@ Shinies
 				yield $amount bunnies
 			else
 				$amount=1*$boost
-				toast The Golden Slime drops<//><b>[$amount] Rare Coins![s?$amount]</b>!
+				toast The Golden Slime drops<//><b>[$amount] Rare Coins[s?$amount]</b>!
 				yield $amount goldenCarrot
 			end
 		end
