@@ -111,91 +111,28 @@ Upgrades
 	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
 	
 	*parsley
-		name:Parsley
-		desc:A nice little supplement to your bunnies' diet.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,1]
-		cost:100 bunnies
-		passive:increase bunny yield of bunnyButton by 1
+		name:Sword
+		desc:It's dangerous to slash alone, take this!<//><b>Effect:</b><.>+1000 coins/click
+		icon:https://i.imgur.com/2nkjN3J.png
+		cost:100000 bunnies
+		passive:increase bunny yield of bunnyButton by 1000
 		req:10 bunnies:earned
 		
 	*spinach
-		name:Spinach
-		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,2]
-		cost:200 bunnies
-		passive:increase bunny yield of bunnyButton by 1
-		req:50 bunnies:earned
-		
-	*lettuce
-		name:Lettuce
-		desc:Frilly greens loved by all bunnies.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,3]
-		cost:400 bunnies
-		passive:increase bunny yield of bunnyButton by 1
-		req:200 bunnies:earned
-		
-	*broccoli
-		name:Broccoli
-		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>bunnies/click x2<.>bunny production +5%
-		icon:icons[1,4]
-		cost:3000 bunnies
-		passive:multiply bunny yield of bunnyButton by 2
-		passive:multiply yield of bunnies by 1.05
-		req:1000 bunnies:earned
-		
-	*apple
-		name:Apple
-		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
-		icon:icons[1,5]
-		cost:10000 bunnies
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of bunnies by 1.05
-		req:1000 bunnies:earned
-		
-	*radish
-		name:Radish
-		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
-		icon:icons[1,6]
-		cost:50000 bunnies
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of bunnies by 1.05
-		req:10000 bunnies:earned
-		
-	*mint
-		name:Mint
-		desc:Tasty, and gives your bunnies a lovely breath.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
-		icon:icons[1,7]
-		cost:100000 bunnies
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of bunnies by 1.05
-		req:50000 bunnies:earned
-		
-	*chard
-		name:Chard
-		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
-		icon:icons[1,8]
-		cost:500000 bunnies
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of bunnies by 1.05
-		req:100000 bunnies:earned
-		
-	*cherry
-		name:Cherry
-		desc:Your bunnies look like little vampires when they start munching on these!<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
-		icon:icons[1,9]
+		name:Warrior
+		desc:The best fighter in the arena will help you defeat more slimes!<//><b>Effect:</b><.>+100000 coins/click
+		icon:https://i.imgur.com/00oEXJL.png
 		cost:1000000 bunnies
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of bunnies by 1.05
+		passive:increase bunny yield of bunnyButton by 100000
 		req:500000 bunnies:earned
 		
-	*carrot
-		name:Carrot
-		desc:The quintessential rabbit food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>bunnies/click x2<.>bunny production +10%
-		icon:icons[1,0]
-		cost:100000000 bunnies
-		passive:multiply bunny yield of bunnyButton by 2
-		passive:multiply yield of bunnies by 1.1
-		req:1000000 bunnies:earned
+	*lettuce
+		name:Ambyst
+		desc:She owns 51% of this arena (and will give you more coins per click).<//><b>Effect:</b><.>+10000000 coins/click
+		icon:https://i.imgur.com/vrTlW6X.png
+		cost:1000000000 bunnies
+		passive:increase bunny yield of bunnyButton by 10000000
+		req:50000000 bunnies:earned
 	
 	//building upgrades
 		
