@@ -58,7 +58,7 @@ Shinies
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
-				toast The Golden Slime drops<//><b>[$amount] Rare Coins!</b>.
+				toast The Golden Slime drops<//><b>[$amount] Coins!</b>.
 				yield $amount bunnies
 			else
 				$amount=1*$boost
